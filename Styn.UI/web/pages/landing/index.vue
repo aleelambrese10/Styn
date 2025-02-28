@@ -1,6 +1,6 @@
 <template>
     <Login />
-    <p>asdasdasd</p>
+    <p>asdasdasdaaaaaa</p>
 </template>
 
 <script setup>
