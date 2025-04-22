@@ -10,6 +10,8 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Security.Claims;
 using System.Text;
+using Application.Services;
+using STYN.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,7 +42,31 @@ builder.Services.AddIdentityCore<ApplicationUser>()
 
 builder.Services.AddScoped<IAuthService, AuthService>();
 
-
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IAlertasService, AlertasService>();
+builder.Services.AddScoped<ICelosService, CelosService>();
+builder.Services.AddScoped<IColaboradoresService, ColaboradoresService>();
+builder.Services.AddScoped<IControlLecheroService, ControlLecheroService>();
+builder.Services.AddScoped<IDescartesService, DescartesService>();
+builder.Services.AddScoped<IDiagnosticoService, DiagnosticoService>();
+builder.Services.AddScoped<IEventosSanitariosService, EventosSanitariosService>();
+builder.Services.AddScoped<IExamenGenitalService, ExamenGenitalService>();
+builder.Services.AddScoped<IFichaAnimalService, FichaAnimalService>();
+builder.Services.AddScoped<ILotesService, LotesService>();
+builder.Services.AddScoped<IMercadoPagoService, MercadoPagoService>();
+builder.Services.AddScoped<IMetodosService, MetodosService>();
+builder.Services.AddScoped<IPartosService, PartosService>();
+builder.Services.AddScoped<IPatologiasPatasService, PatologiasPatasService>();
+builder.Services.AddScoped<IPatologiasUbreService, PatologiasUbreService>();
+builder.Services.AddScoped<IPrenezService, PrenezService>();
+builder.Services.AddScoped<IRazaService, RazaService>();
+builder.Services.AddScoped<IRegistroOrdenesService, RegistroOrdenesService>();
+builder.Services.AddScoped<ISecadoService, SecadoService>();
+builder.Services.AddScoped<ISendEmailService, SendEmailService>();
+builder.Services.AddScoped<IServiciosService, ServiciosService>();
+builder.Services.AddScoped<ITipoAlertaService, TipoAlertaService>();
+builder.Services.AddScoped<ITiposServiciosService, TiposServiciosService>();
+builder.Services.AddScoped<ITorosService, TorosService>();
 
 
 

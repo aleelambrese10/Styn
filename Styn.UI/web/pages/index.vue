@@ -1,8 +1,8 @@
 <template>
     <Login />
-    <p>asdasdasd</p>
+    <p>asdasdasdssss</p>
 </template>
 
 <script setup>
-import Login from '~/pages/login.vue'
+// import Login from '~/pages/login.vue'
 </script>

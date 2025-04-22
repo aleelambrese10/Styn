@@ -136,22 +136,22 @@
   const router = useRouter();
   const loading = ref(false);
   
-  const doLogin = async () => {
-    try {
-      loading.value = true;
-      await authService.login(form.value);
-      const user = userData();
-      if(user.value.role === 'Admin'){
-          navigateTo('/admin');
-       }else{
-          navigateTo('/usuario');
-      }
-    } catch (error) {
-      setAlert();
-      loading.value = false;
-      console.error(error.message);
-    }
-  };
+  // const doLogin = async () => {
+  //   try {
+  //     loading.value = true;
+  //     await authService.login(form.value);
+  //     const user = userData();
+  //     if(user.value.role === 'Admin'){
+  //         navigateTo('/landing');
+  //      }else{
+  //         navigateTo('/landing');
+  //     }
+  //   } catch (error) {
+  //     setAlert();
+  //     loading.value = false;
+  //     console.error(error.message);
+  //   }
+  // };
   
   const setAlert = () => {
     const toastElement = document.getElementById("toast-simple");

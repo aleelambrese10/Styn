@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Styn.Domain.Dtos;
 
 namespace Styn.Application.Services
 {
@@ -86,9 +87,7 @@ namespace Styn.Application.Services
             requestPreference.Items.Add(newItem);
             requestPreference.BackUrls = new PreferenceBackUrlsRequest
             {
-                Success = "http://enarmplus.vylaris.online:81/api/webhook",
-                Failure = "http://enarmplus.vylaris.online:81/api/webhook",
-                Pending = "http://enarmplus.vylaris.online:81/api/webhook",
+                
 
             };
             requestPreference.AutoReturn = "approved";

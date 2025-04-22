@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Styn.Domain.DTOs
+namespace Styn.Domain.Dtos
 {
     public class PreferenceRequestDto
     {
+
         public int MembresiaId { get; set; }
         public Guid UserId { get; set; }
 

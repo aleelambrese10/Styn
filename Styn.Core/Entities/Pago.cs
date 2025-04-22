@@ -13,7 +13,7 @@ namespace Styn.Domain.Entities
         public Guid UserId { get; set; }
         public ApplicationUser? User { get; set; }
         public DateTime FechaPago { get; set; }
-        public string? Estado { get; set; } = "pending";
+        public string? Estado { get; set; } 
         public decimal? Monto { get; set; }
     }
 }
