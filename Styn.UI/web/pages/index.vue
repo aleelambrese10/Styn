@@ -1,8 +1,6 @@
 <template>
-    <Login />
-    <p>asdasdasdssss</p>
+<index></index>
 </template>
-
 <script setup>
-// import Login from '~/pages/login.vue'
+import index from './landing/index.vue'
 </script>

@@ -14,7 +14,7 @@
 </h1>
 
             <p class="mt-4 sm:mt-6 text-lg sm:text-xl md:text-2xl">
-                <span class="text-[#b0ff90] font-semibold">STYNA</span>gro, el primer software ERP pensado para el productor lechero.
+                STYNAgro, el primer software ERP pensado para el productor lechero.
             </p>
         </div>
     </div>

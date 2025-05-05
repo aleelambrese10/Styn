@@ -8,7 +8,7 @@ using Styn.Infrastructure.Repositories.Common;
 // El namespace se ajusta para no incluir 'Module'
 namespace Application.Services
 {
-    /
+    
     public interface IDescartesService : IGenericService<DescartesDTO>
     {
     }
