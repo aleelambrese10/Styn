@@ -8,22 +8,22 @@
           ¿Necesitas aumentar la rentabilidad y tener control de todo el proceso?
         </h1>
         <p class="text-md text-gray-600">
-          ¡Evoluciona la gestión de tu negocio con STYN! Completa el formulario y comienza a optimizar los
+          ¡Evoluciona la gestión de tu negocio con STYNagro! Completa el formulario y comienza a optimizar los
           procesos de tu empresa.
         </p>
         <img src="/control2.jpg" alt="Imagen descriptiva" class="w-full h-auto rounded-lg shadow-lg mt-8">
 
         <!-- Ficha de contacto dentro de la misma columna -->
         <div class="bg-blue-900 text-white p-6 rounded-lg shadow-lg max-w-sm mt-8">
-          <h3 class="text-lg font-bold text-center">Ficha de contacto STYNAgro</h3>
+          <h3 class="text-lg font-bold text-center">Contactate con nosotros</h3>
           <div class="mt-4">
             <p class="flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white mr-2" fill="currentColor"
-                viewBox="0 0 24 24">
-                <path
-                  d="M19.5 15.5a1.72 1.72 0 00-1.27-.73c-.36-.03-.79-.02-1.15-.03-.49 0-.81-.36-1.09-.68-.57-.61-1.19-1.16-1.69-1.8a.93.93 0 01-.16-.96c.1-.23.23-.45.35-.67.18-.34.37-.67.5-1.03a1.72 1.72 0 00-.13-1.39A10.16 10.16 0 0010.88 4 4.47 4.47 0 008.64 4.3c-1.47.6-2.92 1.38-4.17 2.41A2.42 2.42 0 003.4 9.9a14.28 14.28 0 004.51 8.27 14.28 14.28 0 008.27 4.51 2.42 2.42 0 003.19-1.07c1.03-1.25 1.81-2.7 2.41-4.17a4.47 4.47 0 00.3-2.24 10.16 10.16 0 00-2.69-4.12z">
-                </path>
-              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white mr-2" viewBox="0 0 24 24" fill="currentColor">
+  <path
+    d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27 11.36 11.36 0 003.55.57 1 1 0 011 1v3.33a1 1 0 01-1 1A16 16 0 014 5a1 1 0 011-1h3.33a1 1 0 011 1 11.36 11.36 0 00.57 3.55 1 1 0 01-.27 1.11l-2.01 2.13z" />
+</svg>
+
+
               +54 9 3562 55-8323
             </p>
             <p class="text-sm ml-8">(Whatsapp y llamadas)</p>
@@ -34,7 +34,7 @@
                   d="M19.07 4H4.93A2.93 2.93 0 002 6.93v10.14A2.93 2.93 0 004.93 20h14.14A2.93 2.93 0 0022 17.07V6.93A2.93 2.93 0 0019.07 4zM20 7.74L12 12.41 4 7.74V6l8 4.67L20 6v1.74z">
                 </path>
               </svg>
-              <a href="mailto:soporte@synagro.com.ar" class="hover:underline">styncontacto@gmail.com</a>
+              <a href="mailto:styncontacto@gmail.com" class="hover:underline">styncontacto@gmail.com</a>
             </p>
           </div>
         </div>
@@ -138,6 +138,7 @@
 import Footer from '@@/components/Footer.vue';
 import Navbar from '@@/components/Navbar.vue';
 import { ref } from 'vue';
+
 
 const form = ref({
   nombre: '',

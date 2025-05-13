@@ -33,7 +33,7 @@
                     </div>
                     <NuxtLink to="/landing/contacto"
                         class="px-4 py-2 bg-blue-900 text-white text-sm font-medium rounded hover:bg-blue-700">Solicitar
-                        asesoramiento
+                        demo
                     </NuxtLink>
 
                 </div>
