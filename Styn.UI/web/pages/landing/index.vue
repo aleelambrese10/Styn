@@ -4,157 +4,85 @@
 
   <div class="relative h-screen bg-[url('/public/landing-page.jpg')] bg-cover bg-center bg-no-repeat">
     <!-- Filtro de color para mejorar la legibilidad -->
-    <div class="absolute inset-0 bg-gradient-to-r from-green-700/60 to-blue-900/60"></div>
+    <!-- <div class="absolute inset-0 bg-gradient-to-r from-green-700/60 to-blue-900/60"></div> -->
 
-    <div class="relative h-full flex items-center pl-4 sm:pl-8 md:pl-12 lg:pl-16">
+    <<div class="relative h-full flex items-center px-2 sm:px-8 md:px-12 lg:px-16 overflow-x-hidden">
       <div class="text-white max-w-2xl text-left">
-        <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7.5rem] font-extrabold leading-tight">
-          TRANSFORMÁ <br>
-          <span class="text-white">TU TAMBO</span>
-        </h1>
-
+        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold leading-tight">
+  TRANSFORMÁ<br>
+  TU TAMBO
+</h1>
         <p class="mt-4 sm:mt-6 text-lg sm:text-xl md:text-2xl">
           STYNAgro, el primer software ERP pensado para el productor lechero.
         </p>
       </div>
-    </div>
+  </div>
   </div>
 
   <section class="max-w-4xl mx-auto py-12 px-4">
-    <h2 class="text-2xl font-semibold text-center mb-6">¿Qué hace un ERP para una empresa agropecuaria?</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      <div class="bg-blue-900 text-white p-6 rounded-lg shadow-lg">
-        <span class="text-2xl">🗠</span>
-        <h3 class="font-bold mt-2">Gestionar el rodeo</h3>
-        <p class="text-sm mt-1">Registro detallado de cada vaca, su historial y producción.
-        </p>
-      </div>
-      <div class="bg-blue-900 text-white p-6 rounded-lg shadow-lg">
-        <span class="text-2xl">🐮</span>
-        <h3 class="font-bold mt-2">Controlar la producción de leche</h3>
-        <p class="text-sm mt-1">Registro preciso de cantidad y calidad de leche.
-          .</p>
-      </div>
-      <div class="bg-blue-900 text-white p-6 rounded-lg shadow-lg">
-        <span class="text-2xl">🍽️</span>
-        <h3 class="font-bold mt-2">Gestionar la alimentación</h3>
-        <p class="text-sm mt-1">Optimización de dietas y raciones según necesidades.</p>
-      </div>
-      <div class="bg-blue-900 text-white p-6 rounded-lg shadow-lg">
-        <span class="text-2xl">🐄</span>
-        <h3 class="font-bold mt-2">Gestión reproductiva</h3>
-        <p class="text-sm mt-1">Control de ciclos, inseminaciones y partos.</p>
-      </div>
+  <h2 class="text-2xl font-semibold text-center mb-6">¿Cómo ayuda un ERP al productor?</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
 
+    <div class="bg-blue-900 text-white p-6 rounded-lg shadow-lg">
+      <!-- Cow -->
+      <!-- Cow Head SVG alternativa -->
+<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" viewBox="0 0 512 512" fill="currentColor">
+  <path d="M511.1 186.6c-4.6-23.2-26.8-36.9-50.3-31.6-5.4 1.2-10.4 3.2-14.8 5.8-9.6-14.5-25.2-26.1-43.2-31.7-4.1-15.2-11.9-30.2-23.3-42.4-14.4-15.1-32.1-25.5-50.8-30.1-9.2-25.4-28.5-46.2-54.1-57.8-4.2-1.9-9-1.9-13.2 0-25.6 11.6-44.9 32.4-54.1 57.8-18.7 4.6-36.4 15-50.8 30.1-11.4 12.2-19.2 27.2-23.3 42.4-18 5.6-33.6 17.2-43.2 31.7-4.4-2.6-9.4-4.6-14.8-5.8-23.5-5.3-45.7 8.4-50.3 31.6C-5.5 224.6 48 270.5 99.6 286c0 8.8.4 17.8 1.5 26.9C117 406.5 192 471 256 512c64-41 139-105.5 154.9-199.1 1.1-9.1 1.5-18.1 1.5-26.9 51.6-15.5 105.1-61.4 98.7-99.4zM176 304c-17.7 0-32-17.9-32-40s14.3-40 32-40 32 17.9 32 40-14.3 40-32 40zm160 0c-17.7 0-32-17.9-32-40s14.3-40 32-40 32 17.9 32 40-14.3 40-32 40z"/>
+</svg>
+
+      <h3 class="font-bold mt-4">Gestión integral del rodeo</h3>
+      <p class="text-sm mt-1">Registra y controla en tiempo real la producción diaria, eventos reproductivos,
+        sanitarios y gestiones de lotes y fichas individuales, mejorando la eficiencia y salud del rodeo.</p>
     </div>
-  </section>
 
-
-  <!-- <div class="bg-white p-10 rounded-lg shadow-lg text-left max-w-2xl ml-[-50px]">
-        <h1 class="text-sm font-bold text-[#71ba3e] mb-2 text-left">STYNAgro</h1>
-        <p class="text-5xl font-bold text-gray-800 mb-4">
-          El primer software ERP pensado para el productor lechero.
-        </p>
-        <p class="text-lg text-gray-600 mb-6">
-          Con STYNAgro, ofrecemos un software integral especializado en tambos, diseñado para optimizar cada aspecto,
-          desde la gestión reproductiva, hasta la gestión administrativa de tu empresa agropecuaria.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4">
-          <a href="#funcionamiento"
-            class="bg-blue-900 text-white px-6 py-3 rounded-lg font-medium text-center hover:bg-blue-700 w-full sm:w-auto">
-            Conocer más
-          </a>
-        </div>
-      </div> -->
-
-  <!-- <section class="py-16 bg-gray-100 text-white">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-        <h2 class="text-4xl font-extrabold text-blue-400 mb-10">Gestión Integrada</h2>
-
-        <div class="grid md:grid-cols-3 gap-8">
-            <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
-                <h3 class="text-2xl font-bold text-green-300 mb-4">Actividades Productivas</h3>
-                <ul class="space-y-2 text-lg">
-                    <li>✅ Registro de ordeñes</li>
-                    <li>✅ Ficha electrónica de ganado</li>
-                    <li>✅ Ficha electrónica de lotes agrícolas</li>
-                </ul>
-            </div>
-
-            <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
-                <h3 class="text-2xl font-bold text-blue-300 mb-4">Actividades Operativas</h3>
-                <ul class="space-y-2 text-lg">
-                    <li>✅ Empleados</li>
-                    <li>✅ Alertas</li>
-                </ul>
-            </div>
-
-            <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
-                <h3 class="text-2xl font-bold text-yellow-300 mb-4">Actividades Administrativas</h3>
-                <ul class="space-y-2 text-lg">
-                    <li>✅ Compra/venta</li>
-                    <li>✅ Balance</li>
-                </ul>
-            </div>
-        </div>
-        <NuxtLink to="/landing/comoFunciona"
-        class="mt-8 inline-block bg-blue-900 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700">
-        Cómo funciona
-      </NuxtLink>
+    <div class="bg-blue-900 text-white p-6 rounded-lg shadow-lg">
+      <!-- Stethoscope -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" viewBox="0 0 512 512" fill="currentColor">
+        <path d="M447.1 64h-32a16 16 0 0 0-16 16v128a79.1 79.1 0 0 1-158.1 0v-80a16 16 0 0 0-32 0v80a111.1 111.1 0 0 0 96 110.5V384a48 48 0 0 1-96 0v-16a16 16 0 0 0-32 0v16a80 80 0 0 0 160 0v-65.5A111.1 111.1 0 0 0 448 208V80a16 16 0 0 0-16.9-16z"/>
+      </svg>
+      <h3 class="font-bold mt-4">Control reproductivo y sanitario</h3>
+      <p class="text-sm mt-1">Facilita la carga y seguimiento de celos, partos, servicios y patologías, ayudando a
+        optimizar ciclos reproductivos y mantener animales sanos.</p>
     </div>
-</section> -->
 
-
-  <!-- <div id="funcionamiento" class="bg-gray-100 flex justify-center items-center py-16">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-      <h2 class="text-4xl font-bold text-gray-800 mb-8">Gestión Integrada</h2>
-
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-        <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
-          <h3 class="text-lg font-bold text-gray-800">Actividades Productivas</h3>
-          <ul class="mt-3 text-gray-600 text-sm space-y-1">
-            <li>✅ Registro de ordeñes</li>
-            <li>✅ Ficha electrónica de ganado</li>
-            <li>✅ Ficha electrónica de lotes agrícolas</li>
-          </ul>
-        </div>
-
-        <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
-          <h3 class="text-lg font-bold text-gray-800">Actividades Operativas</h3>
-          <ul class="mt-3 text-gray-600 text-sm space-y-1">
-            <li>✅ Empleados</li>
-            <li>✅ Alertas</li>
-          </ul>
-        </div>
-
-        <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
-          <h3 class="text-lg font-bold text-gray-800">Actividades Administrativas</h3>
-          <ul class="mt-3 text-gray-600 text-sm space-y-1">
-            <li>✅ Compra/venta</li>
-            <li>✅ Balance</li>
-          </ul>
-        </div>
-      </div>
-
-      <NuxtLink to="/landing/comoFunciona"
-        class="mt-8 inline-block bg-blue-900 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700">
-        Cómo funciona
-      </NuxtLink>
+    <div class="bg-blue-900 text-white p-6 rounded-lg shadow-lg">
+      <!-- File-invoice-dollar -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" viewBox="0 0 384 512" fill="currentColor">
+        <path d="M288 256H96v32h192v-32zm0 64H96v32h192v-32zm89.6-211.3L320 6.4A24 24 0 0 0 302.6 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V89.4c0-6.4-2.5-12.5-7-17.1zM256 52l76.1 76.1H256V52zM336 464H48V48h176v104a23.9 23.9 0 0 0 24 24h104v288z"/>
+      </svg>
+      <h3 class="font-bold mt-4">Gestión financiera</h3>
+      <p class="text-sm mt-1">Permite controlar ingresos, egresos, ventas, costos y flujos de caja, brindando una
+        visión clara para decisiones económicas acertadas.</p>
     </div>
-  </div> -->
+
+    <div class="bg-blue-900 text-white p-6 rounded-lg shadow-lg">
+      <!-- Dashboard (Chart Line) -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" viewBox="0 0 512 512" fill="currentColor">
+        <path d="M500 384H12c-6.6 0-12 5.4-12 12v36c0 13.3 10.7 24 24 24h464c13.3 0 24-10.7 24-24v-36c0-6.6-5.4-12-12-12zM176 320h64v64h-64v-64zm96-128h64v192h-64V192zm-192 96h64v96H80v-96zm288-160h64v256h-64V96z"/>
+      </svg>
+      <h3 class="font-bold mt-4">Panel de indicadores</h3>
+      <p class="text-sm mt-1">Visualiza toda la información clave en un solo lugar, promoviendo decisiones rápidas y
+        fundamentadas para potenciar la rentabilidad del tambo.</p>
+    </div>
+
+  </div>
+</section>
+
+
+
 
   <div class="bg-blue-900 text-white py-20 px-4 md:px-16">
     <div class="flex flex-col md:flex-row items-center text-center md:text-left gap-10">
 
       <!-- Contenedor de texto -->
       <div class="flex-1 flex flex-col items-center md:items-start">
-        <h3 class="text-sm font-bold uppercase">STYNAgro</h3>
+        <h3 class="text-sm font-bold uppercase">STYN</h3>
         <h1 class="text-3xl md:text-5xl font-bold mt-2">
           CONOCEMOS LAS PROBLEMATICAS DE LOS PRODUCTORES
         </h1>
         <p class="mt-4 max-w-2xl">
-          Nacimos en Argentina, reconocida por su pujante industria agropecuaria y su competitividad a nivel global...
-        </p>
+          Nacimos en el corazón de una de las cuencas lecheras más grandes de Latinoamérica, lo que nos permite conocer
+          de cerca las problemáticas del productor y sus desafíos diarios en la gestión del tambo. </p>
         <NuxtLink to="/landing/nosotros"
           class="mt-10 px-6 py-3 border border-white rounded-full hover:bg-white hover:text-blue-900 transition">
           Más de nosotros
@@ -183,19 +111,19 @@
 
   <div id="contacto" class="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8 ">
     <div class="max-w-7xl mx-auto flex flex-col lg:flex-row">
-      <!-- Columna izquierda: Texto + Imagen + Ficha de Contacto -->
+
       <div class="w-full lg:w-1/2 pr-0 lg:pr-[6rem] mt-8">
         <h1 class="text-3xl font-bold text-gray-800 mb-6">
           ¿Necesitas aumentar la rentabilidad y tener control de todo el proceso?
         </h1>
         <p class="text-md text-gray-600">
-          ¡Evoluciona la gestión de tu negocio con STYNagro! Completa el formulario y comienza a optimizar los
-          procesos de tu empresa.
+          ¡Transforma tu tambo con STYNAgro! Completá el formulario y hacé todo más simple.
+
         </p>
         <img src="/control2.jpg" alt="Imagen descriptiva" class="w-full h-auto rounded-lg shadow-lg mt-8">
 
-        <!-- Ficha de contacto dentro de la misma columna -->
-        <div class="bg-blue-900 text-white p-6 rounded-lg shadow-lg max-w-sm mt-8">
+        <div class="bg-blue-900 text-white p-6 rounded-lg shadow-lg max-w-sm mt-8 mx-auto lg:ml-14">
+
           <h3 class="text-lg font-bold text-center">Contactate con nosotros</h3>
           <div class="mt-4">
             <p class="flex items-center">
@@ -260,41 +188,27 @@
             </div>
 
             <div class="mb-6">
-              <label for="pais" class="block text-sm font-medium text-gray-700 mb-2">País:</label>
-              <select v-model="form.pais" id="pais"
-                class="w-full px-2 py-1 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
-                <option value="" disabled selected>Elegir país...</option>
-                <option value="argentina">Argentina</option>
-                <option value="bolivia">Bolivia</option>
-                <option value="brasil">Brasil</option>
-                <option value="chile">Chile</option>
-                <option value="colombia">Colombia</option>
-                <option value="costa-rica">Costa Rica</option>
-                <option value="cuba">Cuba</option>
-                <option value="ecuador">Ecuador</option>
-                <option value="mexico">México</option>
-                <option value="peru">Perú</option>
-                <option value="uruguay">Uruguay</option>
-                <option value="venezuela">Venezuela</option>
-                <option value="otro">Otro</option>
-              </select>
+              <label for="pais" class="block text-sm font-medium text-gray-700 mb-2">Localidad:</label>
+              <input v-model="form.empresa" type="text" placeholder="Localidad"
+                class="w-full px-2 py-1 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" />
             </div>
 
             <div class="mb-6">
-              <label for="empleados" class="block text-sm font-medium text-gray-700 mb-2">¿Nivel de producción diario?</label>
+              <label for="empleados" class="block text-sm font-medium text-gray-700 mb-2">¿Nivel de producción
+                diario?</label>
               <select v-model="form.empleados" id="empleados"
                 class="w-full px-2 py-1 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
                 <option value="" disabled selected>Elegir opción...</option>
                 <option value="0 a 150">2.000L</option>
-                <option value="151 a 250">2.000L a 5.000L</option>                
+                <option value="151 a 250">2.000L a 5.000L</option>
                 <option value="501 a 1000">> 5.000L</option>
               </select>
             </div>
 
-            <div class="mb-6">
+            <!-- <div class="mb-6">
               <input v-model="form.usuariosSistema" type="number" placeholder="¿Cuántos usuarios operan el sistema?"
                 class="w-full px-2 py-1 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" />
-            </div>
+            </div> -->
 
             <div class="mb-6">
               <textarea v-model="form.mensaje" rows="4" placeholder="¿Cómo podemos ayudarte?"
@@ -358,8 +272,6 @@
   width: 50px;
   height: 50px;
 }
-
-
 </style>
 
 <script setup>

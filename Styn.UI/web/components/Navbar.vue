@@ -6,11 +6,12 @@
             <div class="flex justify-between items-center h-20">
                 <!-- Logo -->
                 <a href="/landing" to="/landing" class="flex items-center space-x-4">
-                    <img src="/logo.png" alt="STYN Logo" class="h-20" />
+                    <img src="/logo2.png" alt="STYN Logo" class="h-20" />
                 </a>
                 <!-- Links (Desktop) -->
                 <div class="hidden md:flex space-x-6">
-                    <NuxtLink to="/landing/" class="text-gray-700 hover:text-blue-600 text-sm">Inicio</NuxtLink>
+                    <NuxtLink to="/landing/" class="text-gray-700 hover:text-blue-600 text-sm">Inicio
+                    </NuxtLink>
                     <NuxtLink to="/landing/comoFunciona" class="text-gray-700 hover:text-blue-600 text-sm">Como funciona
                     </NuxtLink>
                     <NuxtLink to="/landing/nosotros" class="text-gray-700 hover:text-blue-600 text-sm">Nosotros
@@ -23,18 +24,19 @@
 
                 <!-- Button and Top Links (Desktop) -->
                 <div class="bg-white hidden md:flex flex-col items-center space-y-2">
-    <div class="flex space-x-4 text-xs text-gray-700">
-        <NuxtLink to="/login">
-            <button class="btn hover:text-blue-600">Login</button>
-        </NuxtLink>
-        <!-- Enlace a WhatsApp para soporte técnico con target="_blank" -->
-        <a href="https://wa.me/543562558323" class="hover:text-blue-600" target="_blank">Soporte Técnico</a>
-    </div>
-    <NuxtLink to="/landing/contacto"
-        class="px-4 py-2 bg-blue-900 text-white text-sm font-medium rounded hover:bg-blue-700">
-        Solicitar demo
-    </NuxtLink>
-</div>
+                    <div class="flex space-x-4 text-xs text-gray-700">
+                        <NuxtLink to="/login">
+                            <button class="btn hover:text-blue-600">Login</button>
+                        </NuxtLink>
+                        <!-- Enlace a WhatsApp para soporte técnico con target="_blank" -->
+                        <a href="https://wa.me/543562558323" class="hover:text-blue-600" target="_blank">Soporte
+                            Técnico</a>
+                    </div>
+                    <NuxtLink to="/landing/contacto"
+                        class="px-4 py-2 bg-blue-900 text-white text-sm font-medium rounded hover:bg-blue-700">
+                        Solicitar demo
+                    </NuxtLink>
+                </div>
 
 
                 <!-- Hamburger Icon (Mobile) -->
@@ -52,8 +54,9 @@
             <!-- Mobile Menu -->
             <div v-if="isMenuOpen" class="md:hidden bg-white shadow-lg">
                 <div class="px-4 py-2 space-y-4">
+
                     <NuxtLink to="/landing/" class="block text-gray-700 hover:text-blue-600 text-sm">Inicio
-                    </NuxtLink>
+                        </NuxtLink>
                     <NuxtLink to="/landing/comoFunciona" class="block text-gray-700 hover:text-blue-600 text-sm">Como
                         funciona</NuxtLink>
                     <NuxtLink to="/landing/nosotros" class="block text-gray-700 hover:text-blue-600 text-sm">Nosotros
@@ -85,7 +88,3 @@ export default {
 <style scoped>
 /* Estilos opcionales si necesitas personalizar más el navbar */
 </style>
-
-
-
-

@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-white text-gray-800">
     <!-- WhatsApp Button -->
-    <a href="https://wa.me/543562558323?text=¡Hola!%20Quisiera%20saber%20más%20sobre%STYNAgro."
+    <a href="https://wa.me/543562558323?text=¡Hola!%20Quisiera%20saber%20más%20sobre%20STYNAgro."
       class="whatsapp-button" target="_blank">
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
     </a>
